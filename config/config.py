@@ -9,7 +9,7 @@ load_dotenv()
 IMAP_SERVER = "imap.gmail.com"
 EMAIL_ACCOUNT = os.getenv("EMAIL_ACCOUNT")
 EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
-EMAIL_FILE = os.path.join(os.path.dirname(__file__), '../data/emails.txt')
+
 
 # LLM Configuration
 llms = LLM(
